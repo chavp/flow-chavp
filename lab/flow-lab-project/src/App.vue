@@ -34,12 +34,13 @@ import UpdatableEdgeExample from './components/UpdatableEdge/UpdatableEdgeExampl
 import UpdateNodeExample from './components/UpdateNode/UpdateNodeExample.vue'
 import ValidationExample from './components/Validation/ValidationExample.vue'
 
+import Persistance from './components/Persistance/Persistance.vue'
 </script>
 
 <template>
   <div class="flow-editor">
     <div class="flow-canvas">
-      <ValidationExample />
+      <Persistance />
     </div>
   </div>
 </template>

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\controllers\\flowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\controllers\\flowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Program.cs",
+              "RelativeDocumentMoniker": "FlowLabApi\\Program.cs",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Program.cs",
+              "RelativeToolTip": "FlowLabApi\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:57:46.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FlowsController.cs",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Controllers\\FlowsController.cs",
+              "RelativeDocumentMoniker": "FlowLabApi\\Controllers\\FlowsController.cs",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Controllers\\FlowsController.cs",
+              "RelativeToolTip": "FlowLabApi\\Controllers\\FlowsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:19:08.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "FlowLabApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "FlowLabApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T07:07:48.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
