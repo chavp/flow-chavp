@@ -68,6 +68,52 @@
         }
       }
     },
+    "/Flows/nodes/{nodeId}/start": {
+      "put": {
+        "tags": [
+          "Flows"
+        ],
+        "parameters": [
+          {
+            "name": "nodeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Flows/nodes/{nodeId}/pause": {
+      "put": {
+        "tags": [
+          "Flows"
+        ],
+        "parameters": [
+          {
+            "name": "nodeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -200,18 +246,17 @@
       "FlowData": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "data": {
             "$ref": "#/components/schemas/DataSection"
           },
-          "state": {
-            "$ref": "#/components/schemas/StateSection"
-          },
           "isOptionsAPI": {
             "type": "boolean"
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true,
+            "readOnly": true
           }
         },
         "additionalProperties": false
@@ -259,41 +304,6 @@
           "y": {
             "type": "number",
             "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "StateSection": {
-        "type": "object",
-        "properties": {
-          "nodes": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Node"
-            },
-            "nullable": true
-          },
-          "edges": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Edge"
-            },
-            "nullable": true
-          },
-          "position": {
-            "type": "array",
-            "items": {
-              "type": "number",
-              "format": "double"
-            },
-            "nullable": true
-          },
-          "zoom": {
-            "type": "number",
-            "format": "double"
-          },
-          "viewport": {
-            "$ref": "#/components/schemas/Viewport"
           }
         },
         "additionalProperties": false

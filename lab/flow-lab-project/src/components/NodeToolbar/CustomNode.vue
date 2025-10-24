@@ -13,6 +13,7 @@ interface Props {
 }
 
 defineProps<Props>()
+
 </script>
 
 <template>

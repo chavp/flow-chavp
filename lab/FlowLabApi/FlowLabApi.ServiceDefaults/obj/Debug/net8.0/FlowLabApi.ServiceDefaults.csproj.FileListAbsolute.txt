@@ -1,0 +1,13 @@
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\bin\Debug\net8.0\FlowLabApi.ServiceDefaults.deps.json
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\bin\Debug\net8.0\FlowLabApi.ServiceDefaults.dll
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\bin\Debug\net8.0\FlowLabApi.ServiceDefaults.pdb
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\FlowLabApi.ServiceDefaults.csproj.AssemblyReference.cache
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\FlowLabApi.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\FlowLabApi.ServiceDefaults.AssemblyInfoInputs.cache
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\FlowLabApi.ServiceDefaults.AssemblyInfo.cs
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\FlowLabApi.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\FlowLabApi.ServiceDefaults.sourcelink.json
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\FlowLabApi.ServiceDefaults.dll
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\refint\FlowLabApi.ServiceDefaults.dll
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\FlowLabApi.ServiceDefaults.pdb
+D:\github\flow-chavp\lab\FlowLabApi\FlowLabApi.ServiceDefaults\obj\Debug\net8.0\ref\FlowLabApi.ServiceDefaults.dll

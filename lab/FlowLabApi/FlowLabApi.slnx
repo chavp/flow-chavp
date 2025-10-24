@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="FlowLabApi.AppHost/FlowLabApi.AppHost.csproj" Id="d4ceeec0-da1f-48af-a3ab-6cd2c577ee66" />
+  <Project Path="FlowLabApi.ServiceDefaults/FlowLabApi.ServiceDefaults.csproj" />
   <Project Path="FlowLabApi/FlowLabApi.csproj" />
 </Solution>

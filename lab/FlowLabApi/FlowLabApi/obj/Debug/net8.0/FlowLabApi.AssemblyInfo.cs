@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlowLabApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41334bb277737ef21d71bfb10fed86935b33bb86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2db4de2933014732823e435be4834a46d7639cfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlowLabApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlowLabApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

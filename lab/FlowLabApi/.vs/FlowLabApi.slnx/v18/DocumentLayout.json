@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\models\\flowmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\models\\flowmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\controllers\\flowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\controllers\\flowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\controllers\\flowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\controllers\\flowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\jobs\\machinejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\jobs\\machinejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\flows\\7225091a-543b-4113-8b55-ef4e3ca5c7af.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\flows\\7225091a-543b-4113-8b55-ef4e3ca5c7af.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9867BFA-F103-481B-A3EC-6094D67A2C72}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\flows\\6e1e0c7e-8284-48ee-8114-3640bc3ebe4c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\flows\\6e1e0c7e-8284-48ee-8114-3640bc3ebe4c.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\models\\flowmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\models\\flowmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\models\\machineinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\models\\machineinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\backgroundservices\\flowworkerbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\backgroundservices\\flowworkerbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|d:\\github\\flow-chavp\\lab\\flowlabapi\\flowlabapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3D0E5B-7B29-86EC-E60B-15D8817CE957}|FlowLabApi\\FlowLabApi.csproj|solutionrelative:flowlabapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,50 +46,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "7225091a-543b-4113-8b55-ef4e3ca5c7af.json",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Flows\\7225091a-543b-4113-8b55-ef4e3ca5c7af.json",
+              "RelativeDocumentMoniker": "FlowLabApi\\Flows\\7225091a-543b-4113-8b55-ef4e3ca5c7af.json",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Flows\\7225091a-543b-4113-8b55-ef4e3ca5c7af.json",
+              "RelativeToolTip": "FlowLabApi\\Flows\\7225091a-543b-4113-8b55-ef4e3ca5c7af.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T03:44:34.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "6e1e0c7e-8284-48ee-8114-3640bc3ebe4c.json",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Flows\\6e1e0c7e-8284-48ee-8114-3640bc3ebe4c.json",
+              "RelativeDocumentMoniker": "FlowLabApi\\Flows\\6e1e0c7e-8284-48ee-8114-3640bc3ebe4c.json",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Flows\\6e1e0c7e-8284-48ee-8114-3640bc3ebe4c.json",
+              "RelativeToolTip": "FlowLabApi\\Flows\\6e1e0c7e-8284-48ee-8114-3640bc3ebe4c.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T03:31:28.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FlowModels.cs",
               "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Models\\FlowModels.cs",
               "RelativeDocumentMoniker": "FlowLabApi\\Models\\FlowModels.cs",
               "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Models\\FlowModels.cs",
               "RelativeToolTip": "FlowLabApi\\Models\\FlowModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:12:50.987Z",
+              "WhenOpened": "2025-10-24T03:00:57.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Program.cs",
-              "RelativeDocumentMoniker": "FlowLabApi\\Program.cs",
-              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Program.cs",
-              "RelativeToolTip": "FlowLabApi\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MachineInfo.cs",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Models\\MachineInfo.cs",
+              "RelativeDocumentMoniker": "FlowLabApi\\Models\\MachineInfo.cs",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Models\\MachineInfo.cs",
+              "RelativeToolTip": "FlowLabApi\\Models\\MachineInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T07:57:46.176Z",
+              "WhenOpened": "2025-10-23T16:48:45.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MachineJob.cs",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Jobs\\MachineJob.cs",
+              "RelativeDocumentMoniker": "FlowLabApi\\Jobs\\MachineJob.cs",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Jobs\\MachineJob.cs",
+              "RelativeToolTip": "FlowLabApi\\Jobs\\MachineJob.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:30:40.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FlowsController.cs",
               "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Controllers\\FlowsController.cs",
               "RelativeDocumentMoniker": "FlowLabApi\\Controllers\\FlowsController.cs",
               "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Controllers\\FlowsController.cs",
               "RelativeToolTip": "FlowLabApi\\Controllers\\FlowsController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwDQAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwC0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T07:19:08.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "FlowWorkerBackgroundService.cs",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\BackgroundServices\\FlowWorkerBackgroundService.cs",
+              "RelativeDocumentMoniker": "FlowLabApi\\BackgroundServices\\FlowWorkerBackgroundService.cs",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\BackgroundServices\\FlowWorkerBackgroundService.cs",
+              "RelativeToolTip": "FlowLabApi\\BackgroundServices\\FlowWorkerBackgroundService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwCcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:48:49.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "FlowLabApi\\Controllers\\WeatherForecastController.cs",
@@ -78,6 +150,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T07:07:48.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Program.cs",
+              "RelativeDocumentMoniker": "FlowLabApi\\Program.cs",
+              "ToolTip": "D:\\github\\flow-chavp\\lab\\FlowLabApi\\FlowLabApi\\Program.cs",
+              "RelativeToolTip": "FlowLabApi\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:30:25.312Z",
               "EditorCaption": ""
             }
           ]

@@ -35,12 +35,13 @@ import UpdateNodeExample from './components/UpdateNode/UpdateNodeExample.vue'
 import ValidationExample from './components/Validation/ValidationExample.vue'
 
 import Persistance from './components/Persistance/Persistance.vue'
+import DigitalTwin from './components/DigitalTwin/DigitalTwin.vue'
 </script>
 
 <template>
   <div class="flow-editor">
     <div class="flow-canvas">
-      <Persistance />
+      <DigitalTwin />
     </div>
   </div>
 </template>

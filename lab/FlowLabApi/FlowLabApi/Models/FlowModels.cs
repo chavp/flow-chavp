@@ -5,11 +5,18 @@ namespace FlowLabApi.Models;
 public static class FlowModels
 {
     public record FlowData(
-        Guid Id,
         DataSection Data,
-        StateSection State,
         bool IsOptionsAPI
-    );
+    )
+    {
+        public Guid? Id { get; protected set; }
+        public FlowData SetId(Guid id)
+        {
+            Id = id;
+            return this;
+        }
+    }
+
 
     public record DataSection(
         List<Node> Nodes,

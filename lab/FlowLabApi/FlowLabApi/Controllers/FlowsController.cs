@@ -1,7 +1,10 @@
-﻿using FlowLabApi.Models;
+﻿using FlowLabApi.BackgroundServices;
+using FlowLabApi.Jobs;
+using FlowLabApi.Models;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Quartz;
 using System.Text.Json;
 using static FlowLabApi.Models.FlowModels;
 
@@ -12,43 +15,107 @@ namespace FlowLabApi.Controllers;
 public class FlowsController : ControllerBase
 {
     private readonly IWebHostEnvironment _env;
-    public FlowsController(IWebHostEnvironment env)
+    private readonly ILogger<FlowWorkerBackgroundService> _logger;
+    private readonly ISchedulerFactory _schedulerFactory;
+
+    public FlowsController(IWebHostEnvironment env,
+        ILogger<FlowWorkerBackgroundService> logger,
+        ISchedulerFactory schedulerFactory)
     {
         _env = env;
+        _logger = logger;
+        _schedulerFactory = schedulerFactory;
     }
-
 
     [HttpPut("{flowId}")]
     public async Task<IActionResult> SaveFlow(Guid flowId, FlowData request)
     {
-        var flowFilePath = Path.Combine(_env.ContentRootPath, "Flows", $"{flowId}.json");
-        saveFlowToFile(flowFilePath, request);
-        var flowData = loadFlowFromFile(flowFilePath);
+        saveFlow(flowId, request);
+        var flowData = getFlow(flowId);
         return Ok(flowData);
     }
 
     [HttpGet("{flowId}")]
     public async Task<IActionResult> GetFlow(Guid flowId)
     {
-        var flowFilePath = Path.Combine(_env.ContentRootPath, "Flows", $"{flowId}.json");
-        var flowData = loadFlowFromFile(flowFilePath);
-        if(flowData == null)
+        var flowData = getFlow(flowId);
+        if(flowData == null) 
         {
             return NotFound();
         }
         return Ok(flowData);
     }
 
-    private void saveFlowToFile(string path, FlowData flowData)
+    [HttpPut("nodes/{nodeId}/start")]
+    public async Task<IActionResult> StartNode(Guid nodeId)
     {
-        var flowJson = System.Text.Json.JsonSerializer.Serialize(flowData);
+        // 2. Get the scheduler
+        IScheduler scheduler = await _schedulerFactory.GetScheduler();
+
+        // 3. Define the job
+        JobKey jobKey = new JobKey(nodeId.ToString(), "MachineGroup");
+        // Retrieve the JobDetail using the JobKey
+        IJobDetail jobDetail = await scheduler.GetJobDetail(jobKey);
+        if (jobDetail == null)
+        {
+            IJobDetail job = JobBuilder.Create<MachineJob>()
+                .SetJobData(new JobDataMap
+                {
+                    { "JobId", nodeId }
+                })
+                .WithIdentity(jobKey)
+                .Build();
+
+            // 4. Define the trigger
+            ITrigger trigger = TriggerBuilder.Create()
+                .WithIdentity($"{nodeId.ToString()}-trigger", "MachineGroup")
+                .WithCronSchedule("* * * ? * *")
+                .Build();
+
+            // 5. Schedule the job with the trigger
+            await scheduler.Start();
+            await scheduler.ScheduleJob(job, trigger);
+            _logger.LogInformation($"Job for {nodeId.ToString()} scheduled successfully.");
+        }
+        else
+        {
+            await scheduler.ResumeJob(jobKey);
+            _logger.LogInformation($"Job for {nodeId.ToString()} resumed successfully.");
+        }
+
+            return Ok();
+    }
+
+    [HttpPut("nodes/{nodeId}/pause")]
+    public async Task<IActionResult> PauseNode(Guid nodeId)
+    {
+        // 2. Get the scheduler
+        IScheduler scheduler = await _schedulerFactory.GetScheduler();
+
+        // 3. Define the job
+        JobKey jobKey = new JobKey(nodeId.ToString(), "MachineGroup");
+        IJobDetail jobDetail = await scheduler.GetJobDetail(jobKey);
+        if (jobDetail != null)
+        {
+            await scheduler.PauseJob(jobKey);
+            _logger.LogInformation($"Job for {nodeId.ToString()} stopped successfully.");
+        }
+        return Ok();
+    }
+
+    private void saveFlow(Guid flowId, FlowData flowData)
+    {
+        var path = Path.Combine(_env.ContentRootPath, "Flows", $"{flowId}.json");
+        var newflowData = flowData;
+        newflowData.SetId(flowId);
+        var flowJson = System.Text.Json.JsonSerializer.Serialize(newflowData);
         System.IO.File.WriteAllText(path, flowJson);
     }
 
-    private FlowData? loadFlowFromFile(string path)
+    private FlowData? getFlow(Guid flowId)
     {
-
-        if(!System.IO.File.Exists(path)) return null;
+        var path = Path.Combine(_env.ContentRootPath, "Flows", $"{flowId}.json");
+        if (!System.IO.File.Exists(path)) return null;
 
         var json = System.IO.File.ReadAllText(path);
         if (string.IsNullOrEmpty(json)) return null;
@@ -59,6 +126,7 @@ public class FlowsController : ControllerBase
             PropertyNameCaseInsensitive = true
         };
         var flowData = JsonSerializer.Deserialize<FlowData>(json, options);
+        flowData.SetId(flowId);
         return flowData!;
     }
 }

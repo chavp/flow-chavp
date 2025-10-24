@@ -37,6 +37,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FlowLabApi.Controllers.FlowsController",
+    "Method": "PauseNode",
+    "RelativePath": "Flows/nodes/{nodeId}/pause",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nodeId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FlowLabApi.Controllers.FlowsController",
+    "Method": "StartNode",
+    "RelativePath": "Flows/nodes/{nodeId}/start",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nodeId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FlowLabApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

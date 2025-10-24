@@ -6,6 +6,7 @@ import { defineStore } from 'pinia'
 import { uuid } from 'vue-uuid';
 import axios from 'axios';
 
+const baseUrl = "https://localhost:7157"
 const flowKey = '6e1e0c7e-8284-48ee-8114-3640bc3ebe4c'
 const useStateStore = defineStore(flowKey, {
   state: () => (
@@ -16,9 +17,7 @@ const useStateStore = defineStore(flowKey, {
         } as FlowExportObject
       }
     ),
-  getters: {
-    state: (state) => state.data
-  },
+  
   actions: {
     save(data:FlowExportObject) {
       this.$state.data = data
@@ -37,7 +36,8 @@ const {
     toObject,
     setNodes,
     setEdges,
-    setViewport
+    setViewport,
+    fromObject
 } = useVueFlow(flowKey)
 
 // Functions
@@ -48,7 +48,9 @@ function addNode(type: String) {
     id,
     type,
     position: { x: 0, y: 0 },
-    data: { label: `Node ${id}`, },
+    data: { 
+        label: `Node ${id}`
+     },
   })
 }
 
@@ -63,19 +65,16 @@ function saveState() {
             stateStore.save(response.data.data)
             restoreState()
             
-            alert('TSave flow success!')
+            //alert('TSave flow success!')
         })
         .catch(error => console.log(error));
 }
 
 function restoreState() {
-  const flow = stateStore.state
+  const flow = stateStore.data
 
   if (flow) {
-    const [x = 0, y = 0] = flow.position
-    setNodes(flow.nodes)
-    setEdges(flow.edges)
-    setViewport({ x, y, zoom: flow.zoom || 0 })
+    fromObject(flow)
   }
 }
 
@@ -97,8 +96,12 @@ const connector = (params) => {
 }
 
 onMounted(async () => {
+  await loadFlow(baseUrl, flowKey)
+});
+
+async function loadFlow(baseUrl: string, folwId: string) {
   await axios
-    .get('https://localhost:7157/flows/' + flowKey)
+    .get(`${baseUrl}/flows/${folwId}`)
     .then(response => {
         //console.log(response.data.data);
         stateStore.$id = response.data.id
@@ -106,8 +109,7 @@ onMounted(async () => {
         restoreState()
     })
     .catch(error => console.log(error));
-});
-
+}
 </script>
 
 <template>
