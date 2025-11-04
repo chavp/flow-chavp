@@ -1,16 +1,21 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-
-defineProps<{ msg: string }>()
+import CounterApp from './CounterApp.vue'
 
 const count = ref(0)
+
+function handleIncrementEvent(n:Number, callback:Function) {
+  count.value += n
+  callback('Completed')
+}
+
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <!-- <button type="button" @click="count++">count is {{ count }}</button>-->
+    <CounterApp @increment-event="handleIncrementEvent" :count="count" />
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
